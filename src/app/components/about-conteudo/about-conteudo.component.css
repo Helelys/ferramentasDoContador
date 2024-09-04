@@ -36,45 +36,42 @@ section {
 
 .video {
     max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding-bottom: 40%;
 }
 
-.container_video {
-    padding-top: 50px;
-    padding-bottom: 150px;
-    margin: auto;
-    max-width: 1200px;
+.video > iframe {
+    position: absolute;
+    top: 15%;
+    width: 70%;
+    height: 80%;
 }
 
-@media (max-width: 765px) {
+@media screen and (max-width: 1024px) {
     .textos {
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
-
-        padding-inline: 16px;
     }
 
     .titulo {
-        width: 80%;
-        text-align: center;
-        margin: auto;
+        width: 100%;
+    }
 
-        display: flex;
-        justify-content: center;
-        align-items: center;
+    .titulo h2 {
+        text-align: center;
     }
 
     .textoP {
-        width: 70%;
-        margin: auto;
-        text-align: justify;
+        width: 100%;
+        padding-inline: 2em;
     }
 }
 
-@media (max-width: 375px) {
-    .titulo h2 {
-        font-size: 60px;
-        letter-spacing: 0;
+@media screen and (max-width: 414px) {
+    .video > iframe {
+        width: 100%;
     }
 }
 
