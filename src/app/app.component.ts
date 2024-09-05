@@ -5,6 +5,7 @@ import { HeroBannerComponent } from './components/hero-banner/hero-banner.compon
 import { AboutConteudoComponent } from './components/about-conteudo/about-conteudo.component';
 import { AboutHimComponent } from './components/about-him/about-him.component';
 import { OfertaComponent } from "./components/oferta/oferta.component";
+import { CompreComponent } from "./components/compre/compre.component";
 
 @Component({
   selector: 'app-root',
@@ -15,7 +16,8 @@ import { OfertaComponent } from "./components/oferta/oferta.component";
     HeroBannerComponent,
     AboutConteudoComponent,
     AboutHimComponent,
-    OfertaComponent
+    OfertaComponent,
+    CompreComponent
 ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
