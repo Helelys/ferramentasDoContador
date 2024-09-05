@@ -13,3 +13,7 @@
 a {
     text-decoration: none;
 }
+
+body {
+    background-image: radial-gradient(circle, #0b0b0b, #0b0b0b, #0b0a0b, #0a0a0b, #0a0a0b, #0a0a0b, #0a0a0b, #0a0a0b, #0a0a0b, #0b0a0b, #0b0b0b, #0b0b0b);
+}
