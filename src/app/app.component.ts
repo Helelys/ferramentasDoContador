@@ -6,6 +6,7 @@ import { AboutConteudoComponent } from './components/about-conteudo/about-conteu
 import { AboutHimComponent } from './components/about-him/about-him.component';
 import { OfertaComponent } from "./components/oferta/oferta.component";
 import { CompreComponent } from "./components/compre/compre.component";
+import { AcordeonComponent } from "./components/acordeon/acordeon.component";
 
 @Component({
   selector: 'app-root',
@@ -17,7 +18,8 @@ import { CompreComponent } from "./components/compre/compre.component";
     AboutConteudoComponent,
     AboutHimComponent,
     OfertaComponent,
-    CompreComponent
+    CompreComponent,
+    AcordeonComponent
 ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
