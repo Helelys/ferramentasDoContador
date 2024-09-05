@@ -150,6 +150,13 @@ section {
     .card_size h3 {
         font-size: 2.5em;
     }
+
+    section {
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
 }
 
 @media screen and (max-width: 320px) {

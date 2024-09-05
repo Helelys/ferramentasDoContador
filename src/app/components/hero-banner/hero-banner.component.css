@@ -144,6 +144,13 @@ h1 span {
     .containerBotao {
         width: 100%;
     }
+
+    body {
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
 }
 
 @media screen and (max-width: 320px) {
