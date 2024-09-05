@@ -7,6 +7,7 @@ import { AboutHimComponent } from './components/about-him/about-him.component';
 import { OfertaComponent } from "./components/oferta/oferta.component";
 import { CompreComponent } from "./components/compre/compre.component";
 import { AcordeonComponent } from "./components/acordeon/acordeon.component";
+import { FooterComponent } from "./components/footer/footer.component";
 
 @Component({
   selector: 'app-root',
@@ -19,7 +20,8 @@ import { AcordeonComponent } from "./components/acordeon/acordeon.component";
     AboutHimComponent,
     OfertaComponent,
     CompreComponent,
-    AcordeonComponent
+    AcordeonComponent,
+    FooterComponent
 ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
