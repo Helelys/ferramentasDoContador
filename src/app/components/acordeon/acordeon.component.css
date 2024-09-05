@@ -86,3 +86,13 @@ section {
 .acordeon:has(.active) .arrow {
     transform: rotate(180deg);
 }
+
+@media screen and (max-width: 414px) {
+    #container {
+        width: 100%;
+    }
+
+    .title {
+        font-size: 4em;
+    }
+}
