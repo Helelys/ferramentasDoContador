@@ -93,6 +93,11 @@ h1 span {
 }
 
 /* responsividade */
+@media screen and (max-width: 1900px) {
+    h1 {
+        font-size: 5em;
+    }
+}
 
 @media screen and (max-width: 1366px) {
     .container-textos {
