@@ -62,10 +62,16 @@ h2 span {
     color: black;
 }
 
-.container_botao a:hover {
+.container_botao:hover {
     background-color: black;
+    transition: 0.5s;
+
+    box-shadow: rgba(0, 0, 0, 0.712) 0px 19px 38px, rgba(0, 0, 0, 0.726) 0px 15px 12px;
+}
+
+.container_botao:hover > a {
     color: white;
-    border-radius: 20px;
+    transition: 0.5s;
 }
 
 @media screen and (max-width: 1280px) {
